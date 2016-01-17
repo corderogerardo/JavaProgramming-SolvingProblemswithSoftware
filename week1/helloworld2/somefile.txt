@@ -1,0 +1,5 @@
+Congrats on writing a Java program!
+Isn't it exciting to be able to
+write a program that can read 
+a file from anywhere
+in the world?
