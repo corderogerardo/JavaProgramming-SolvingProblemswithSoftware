@@ -21,6 +21,20 @@ public class TagFinder {
 		else {
 			return "";
 		}
+		int stop = dna.indexOf("tga", start+3);
+		if ((stop - start) % 3 == 0) {
+			return dna.substring(start, stop+3);
+		}
+		else {
+			return "";
+		}
+		int stop = dna.indexOf("taa", start+3);
+		if ((stop - start) % 3 == 0) {
+			return dna.substring(start, stop+3);
+		}
+		else {
+			return "";
+		}
 	}
 	
 	public void testing() {
@@ -30,6 +44,8 @@ public class TagFinder {
 		//String ap = "";
 		//String a = "ATGCCCTAG";
 		//String ap = "ATGCCCTAG";
+		a.toLowerCase();
+		ap.toLowerCase();
 		String result = findProtein(a);
 		if (ap.equals(result)) {
 			System.out.println("success for " + ap + " length " + ap.length());

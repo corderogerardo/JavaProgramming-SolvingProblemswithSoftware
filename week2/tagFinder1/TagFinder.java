@@ -24,12 +24,14 @@ public class TagFinder {
 	}
 	
 	public void testing() {
-		String a = "cccatggggtttaaataataataggagagagagagagagttt";
-		String ap = "atggggtttaaataataatag";
+		//String a = "cccatggggtttaaataataataggagagagagagagagttt";
+		//String ap = "atggggtttaaataataatag";
 		//String a = "atgcctag";
 		//String ap = "";
-		//String a = "ATGCCCTAG";
-		//String ap = "ATGCCCTAG";
+		String a = "ATGCCCTAG";
+		String ap = "ATGCCCTAG";
+		a = a.toLowerCase();
+		ap = ap.toLowerCase();
 		String result = findProtein(a);
 		if (ap.equals(result)) {
 			System.out.println("success for " + ap + " length " + ap.length());
