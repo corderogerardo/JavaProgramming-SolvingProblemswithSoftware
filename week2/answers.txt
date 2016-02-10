@@ -1,0 +1,9 @@
+68
+15
+33
+224
+282
+URLs = 340
+https  = 3
+.com  = 339
+Total number of links that end with .com or .com/  = 15
